@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grand\\source\\repos\\IceCreamAPI\\IceCreamAPI\\IceCreamAPI.csproj": {}
+    "C:\\Users\\JFish\\Source\\Repos\\IceCreamApi\\IceCreamAPI\\IceCreamAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grand\\source\\repos\\IceCreamAPI\\IceCreamAPI\\IceCreamAPI.csproj": {
+    "C:\\Users\\JFish\\Source\\Repos\\IceCreamApi\\IceCreamAPI\\IceCreamAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grand\\source\\repos\\IceCreamAPI\\IceCreamAPI\\IceCreamAPI.csproj",
+        "projectUniqueName": "C:\\Users\\JFish\\Source\\Repos\\IceCreamApi\\IceCreamAPI\\IceCreamAPI.csproj",
         "projectName": "IceCreamAPI",
-        "projectPath": "C:\\Users\\grand\\source\\repos\\IceCreamAPI\\IceCreamAPI\\IceCreamAPI.csproj",
-        "packagesPath": "C:\\Users\\grand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grand\\source\\repos\\IceCreamAPI\\IceCreamAPI\\obj\\",
+        "projectPath": "C:\\Users\\JFish\\Source\\Repos\\IceCreamApi\\IceCreamAPI\\IceCreamAPI.csproj",
+        "packagesPath": "C:\\Users\\JFish-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JFish\\Source\\Repos\\IceCreamApi\\IceCreamAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\grand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JFish-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

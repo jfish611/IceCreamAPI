@@ -31,11 +31,11 @@ namespace IceCreamAPI.Services
                 connection = new SqlConnection(connectionString);
                 newId = connection.ExecuteScalar<int>(queryString, p);
             }
-            catch (Exception e)
-            {
-                newId = -1;
-                //log the error--get details from e
-            }
+            //catch (Exception e)
+            //{
+            //    newId = -1;
+            //    //log the error--get details from e
+            //}
             finally //cleanup!
             {
                 if (connection != null)
@@ -69,10 +69,10 @@ namespace IceCreamAPI.Services
                 connection = new SqlConnection(connectionString);
                 Products = connection.Query<Product>(queryString);
             }
-            catch (Exception e)
-            {
-                //log the error--get details from e
-            }
+            //catch (Exception e)
+            //{
+            //    //log the error--get details from e
+            //}
             finally //cleanup!
             {
                 if (connection != null)
@@ -112,10 +112,10 @@ namespace IceCreamAPI.Services
                 connection = new SqlConnection(connectionString);
                 Products = connection.Query<Product>(queryString);
             }
-            catch (Exception e)
-            {
-                //log the error--get details from e
-            }
+            //catch (Exception e)
+            //{
+            //    //log the error--get details from e
+            //}
             finally //cleanup!
             {
                 if (connection != null)
@@ -138,10 +138,10 @@ namespace IceCreamAPI.Services
                 connection = new SqlConnection(connectionString);
                 Products = connection.Query<Product>(queryString, new { cat = category } );
             }
-            catch (Exception e)
-            {
-                //log the error--get details from e
-            }
+            //catch (Exception e)
+            //{
+            //    //log the error--get details from e
+            //}
             finally //cleanup!
             {
                 if (connection != null)
@@ -164,10 +164,10 @@ namespace IceCreamAPI.Services
                 connection = new SqlConnection(connectionString);
                 product = connection.QueryFirstOrDefault<Product>(queryString, new { id = id });
             }
-            catch (Exception e)
-            {
-                //log the error--get details from e
-            }
+            //catch (Exception e)
+            //{
+            //    //log the error--get details from e
+            //}
             finally //cleanup!
             {
                 if (connection != null)
